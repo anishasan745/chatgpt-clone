@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>ChatGPT</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/x-icon" href="./logo.png" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="btn-flex">
+        <button class="btn">
+          <i data-feather="plus"></i>
+          <p>New Chat</p>
+        </button>
+        <button class="btn sidebar-btn">
+          <i data-feather="sidebar"></i>
+        </button>
+      </div>
+      <div style="margin: 0.5rem; margin-left: 0">
+        <p class="today">
+          Today
+        </p>
+        <div class="chat-item">
+          <i data-feather="message-square"></i>
+          <p>New Chat</p>
+        </div>
+        <div class="chat-item">
+          <i data-feather="message-square"></i>
+          <p>Fundamentals Of CSS</p>
+        </div>
+        <div class="chat-item">
+          <i data-feather="message-square"></i>
+          <p>Fundamentals Of HTML</p>
+        </div>
+      </div>
+      <div class="profile-div">
+        <img src="./profile_pic.jpg" class="profile-img" />
+        <p>Anis Hasan</p>
+        <i
+          data-feather="more-horizontal"
+          style="width: 1rem; margin-left: auto"
+        ></i>
+      </div>
+    </div>
+    <div class="banner">
+      <img src="./banner.png" alt="gpt">
+    </div>
+    <div class="main-container">
+      <div class="input-flex">
+        <input placeholder="Send a message" />
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" class="send-icon" stroke-width="2">
+          <path d="M.5 1.163A1 1 0 0 1 1.97.28l12.868 6.837a1 1 0 0 1 0 1.766L1.969 15.72A1 1 0 0 1 .5 14.836V10.33a1 1 0 0 1 .816-.983L8.5 8 1.316 6.653A1 1 0 0 1 .5 5.67V1.163Z" fill="currentColor"></path>
+        </svg>
+      </div>
+      <p class="footer-text">
+        Free Research Preview. ChatGPT may produce inaccurate information about people, places, or facts. <span style="text-decoration: underline;">ChatGPT May 24 Version</span>
+      </p>
+    </div>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
